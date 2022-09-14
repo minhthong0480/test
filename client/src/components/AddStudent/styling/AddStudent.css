@@ -1,0 +1,148 @@
+h2 {
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.name_container{
+    height:65px;
+}
+
+.fields_container{
+    height:65px;
+}
+
+.first_name{
+    float:left;
+    width:30%;
+    padding-left: 29px;
+}
+
+.mid_name{
+    float:left;
+    width:30%;
+    padding-left: 45px;
+}
+
+.last_name{
+    float:left;
+    width:30%;
+    padding-left: 45px;
+}
+
+input[type=text]{
+    border-radius: 1px;
+    border-color:#67BFFF;
+    background-color: #F2F2F2;
+    width:100%;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.class_field{
+    float:left;
+    width:10%;
+    padding-left: 100px;
+}
+
+.roll_field{
+    float:left;
+    width:15%;
+    padding-left:55px;
+}
+
+.gen_field{
+    float:left;
+    width:15%;
+    padding-left:55px;
+}
+
+.session_field{
+    float:left;
+    width:15%;
+    padding-left:55px;
+}
+
+.blood_field{
+    float:left;
+    width: 15%;
+    padding-left:55px;
+}
+
+select{
+    border-radius: 1px;
+    border-color:#67BFFF;
+    background-color: #F2F2F2;
+    width:100%;
+    padding-bottom: 12px;
+}
+
+.dad_field {
+    float:left;
+    width:45%;
+    padding-left: 29px;
+}
+
+.mom_field {
+    float:left;
+    width:45%;
+    padding-left: 55px;
+}
+
+#academic {
+    clear:both;
+    padding:50px;
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+    padding-bottom: 100px;}
+
+.table-keys {
+    width: 1512px;
+    height: 77px;
+    left: 0px;
+    top: 771px;
+
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+th, td {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #D5D5D5;
+  }
+
+td input {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#submit-button {
+    color:#FFFFFF;
+    background: #02A2F3;
+    border: 1px solid #67BFFF;
+    width: 404px;
+    height: 64px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size:32px;
+    position:relative;
+    left:38%;
+    top:100%;
+}
