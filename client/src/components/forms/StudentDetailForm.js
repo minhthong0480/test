@@ -1,6 +1,6 @@
 import { Fragment, React, useState } from "react";
 import { Select } from "antd";
-import "antd/dist/antd.css";
+import 'antd/dist/antd.min.css'
 import { useSelector } from "react-redux";
 
 const StudentDetailForm = (props) => {

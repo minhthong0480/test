@@ -2,7 +2,7 @@ import { Fragment, React, useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import { useParams, useMatch } from "react-router-dom";
 import { Select } from "antd";
-import "antd/dist/antd.css";
+import 'antd/dist/antd.min.css'
 import { updateStudent, read, readOne } from "../action/student";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
